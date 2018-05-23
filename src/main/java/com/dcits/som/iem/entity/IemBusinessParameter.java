@@ -7,7 +7,7 @@ public class IemBusinessParameter {
 
     private String code;
 
-    private String parameterName;
+    private String parameterName; 
 
     private String parameterDesc;
 
