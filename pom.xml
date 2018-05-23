@@ -1,0 +1,49 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.dcits.som</groupId>
+    <artifactId>som-iem-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <relativePath>../som-parent/som-iem-pom.xml</relativePath>
+  </parent>
+  
+  
+  	<dependencies>
+		<dependency>
+			<groupId>com.dcits.bscp</groupId>
+			<artifactId>bscp-commons-vo</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.dcits.bscp</groupId>
+			<artifactId>bscp-commons-persistence</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		 <dependency>
+			<groupId>com.dcits.bscp</groupId>
+			<artifactId>bscp-act-extend-api</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		
+		<dependency>
+        <groupId>com.dcits.bscp</groupId>
+        <artifactId>bscp-sys-api</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+		 <dependency>
+			<groupId>com.dcits.som</groupId>
+			<artifactId>som-serviceProducts-api</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency> 
+  	</dependencies>
+	
+	<build>
+		<finalName>som-iem-api</finalName>
+	</build>
+
+    
+	<artifactId>som-iem-api</artifactId>
+</project>
